@@ -82,11 +82,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<%@include file="wishlist.jsp"%>
 	</c:if>
 	
-	<!-- Load when user About Us-->
+	<!-- Load when user clicks About Us-->
 	<c:if test="${userCilckAboutUs == true}">
 		<%@include file="aboutus.jsp"%>
 	</c:if>
 	
+	<!-- Load when user clicks About Us-->
+	<c:if test="${userCilckContactUs == true}">
+		<%@include file="contactus.jsp"%>
+	</c:if>
+	
+	<!-- Load when user clicks create account-->
+	<c:if test="${userCilckRegister == true}">
+		<%@include file="register.jsp"%>
+	</c:if>
+
+	<!-- Load when user clicks Login-->
+	<c:if test="${userCilckLogin == true}">
+		<%@include file="login.jsp"%>
+	</c:if>
+		
 	<!--  FOOTER   -->
 	<%@include file="./shared/footer.jsp"%>
 </body>

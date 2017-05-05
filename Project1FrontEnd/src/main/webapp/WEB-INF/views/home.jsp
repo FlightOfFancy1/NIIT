@@ -10,22 +10,28 @@
 <div class="slider">
 	  <div class="callbacks_container">
 	      <ul class="rslides" id="slider">
-	        <li><img src="${images}/banner1.jpg" class="img-responsive" alt=""/>
+	        <li><img src="${images}/dog1.jpg" class="img-responsive" alt=""/>
 	        <div class="banner_desc">
-				<h1>We Provide Worlds top fashion for less fashionpress.</h1>
-				<h2>FashionPress the name of the of hi class fashion Web FreePsd.</h2>
+				<h1>Take your Favourite Pet to your home.</h1>
+				<h2>Petshop is the place where you can find your favourite pet and also can sell.</h2>
 			</div>
 	        </li>
-	        <li><img src="${images}/banner2.jpg" class="img-responsive" alt=""/>
+	        <li><img src="${images}/dog2.jpg" class="img-responsive" alt=""/>
 	         <div class="banner_desc">
-				<h1>Duis autem vel eum iriure dolor in hendrerit.</h1>
-				<h2>Claritas est etiam processus dynamicus, qui sequitur .</h2>
+				<h1>Put your pet info and give them a new buyer.</h1>
+				<h2>A dog is the only thing on earth that loves you, more than you love yourself</h2>
 			 </div>
 	        </li>
-	        <li><img src="${images}/banner3.jpg" class="img-responsive" alt=""/>
+	        <li><img src="${images}/cat2.jpg" class="img-responsive" alt=""/>
 	          <div class="banner_desc">
-				<h1>Ut wisi enim ad minim veniam, quis nostrud.</h1>
-				<h2>Mirum est notare quam littera gothica, quam nunc putamus.</h2>
+				<h1>Cats are connoisseurs of comfort</h1>
+				<h2></h2>
+			  </div>
+	        </li>
+	         <li><img src="${images}/cat1.jpg" class="img-responsive" alt=""/>
+	          <div class="banner_desc">
+				<h1>Just watching my cats can make me happy</h1>
+				<h2></h2>
 			  </div>
 	        </li>
 	      </ul>

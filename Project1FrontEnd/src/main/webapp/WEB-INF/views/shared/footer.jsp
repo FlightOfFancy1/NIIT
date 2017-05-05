@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+<div class="footer_bg">
+</div>
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 f_grid1">

@@ -1,12 +1,20 @@
 package com.vishalshirke.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.vishalshirke.Project1BackEnd.dao.CustomerDAO;
+
 @Controller
 public class PageController
 {
+	
+	@Autowired
+	CustomerDAO customerDAO;
+	
+	
     @RequestMapping(value={"/","/home"})
 	public ModelAndView index()
    {
@@ -21,7 +29,7 @@ public class PageController
 	public ModelAndView sell()
    {
 	   ModelAndView mv=new ModelAndView("page");
-	   mv.addObject("title","Home");
+	   mv.addObject("title","Sell Your pet");
 	   mv.addObject("userCilckSell",true);
 		return mv;
    }
@@ -30,7 +38,7 @@ public class PageController
 	public ModelAndView Categories()
    {
 	   ModelAndView mv=new ModelAndView("page");
-	   mv.addObject("title","Home");
+	   mv.addObject("title","Categories");
 	   mv.addObject("userCilckCategories",true);
 		return mv;
    }
@@ -39,7 +47,7 @@ public class PageController
 	public ModelAndView Food()
    {
 	   ModelAndView mv=new ModelAndView("page");
-	   mv.addObject("title","Home");
+	   mv.addObject("title","Pet Food");
 	   mv.addObject("userCilckFood",true);
 		return mv;
    }
@@ -48,7 +56,7 @@ public class PageController
 	public ModelAndView Accessories()
    {
 	   ModelAndView mv=new ModelAndView("page");
-	   mv.addObject("title","Home");
+	   mv.addObject("title","Accessories");
 	   mv.addObject("userCilckAccessories",true);
 		return mv;
    }
@@ -57,7 +65,7 @@ public class PageController
 	@RequestMapping(value = "/aboutus")
 	public ModelAndView AboutUs() {
 		ModelAndView mv = new ModelAndView("page");
-		mv.addObject("title", "Home");
+		mv.addObject("title", "About Us");
 		mv.addObject("userCilckAboutUs", true);
 		return mv;
 	}
@@ -66,8 +74,35 @@ public class PageController
 	public ModelAndView Wishlist()
    {
 	   ModelAndView mv=new ModelAndView("page");
-	   mv.addObject("title","Home");
-	   mv.addObject("userCilckwishlist",true);
+	   mv.addObject("title","Wishlist");
+	   mv.addObject("userCilckWishlist",true);
+		return mv;
+   }
+	
+
+	@RequestMapping(value="/contactus")
+	public ModelAndView ContactUs()
+   {
+	   ModelAndView mv=new ModelAndView("page");
+	   mv.addObject("title","Contact Us");
+	   mv.addObject("userCilckContactUs",true);
+		return mv;
+   }
+	@RequestMapping(value="/register")
+	public ModelAndView Register()
+   {
+	   ModelAndView mv=new ModelAndView("page");
+	   mv.addObject("title","Register");
+	   mv.addObject("userCilckRegister",true);
+		return mv;
+   }
+	
+	@RequestMapping(value="/login")
+	public ModelAndView Login()
+   {
+	   ModelAndView mv=new ModelAndView("page");
+	   mv.addObject("title","User-Login");
+	   mv.addObject("userCilckLogin",true);
 		return mv;
    }
 }
