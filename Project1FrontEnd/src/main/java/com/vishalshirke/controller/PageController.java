@@ -5,21 +5,22 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.vishalshirke.Project1BackEnd.dao.CustomerDAO;
+import com.vishalshirke.Project1BackEnd.dao.CategoryDAO;
+import com.vishalshirke.Project1BackEnd.dao.SigninDAO;
+
 
 @Controller
 public class PageController
 {
-	
 	@Autowired
-	CustomerDAO customerDAO;
-	
+	CategoryDAO categoryDAO;
 	
     @RequestMapping(value={"/","/home"})
 	public ModelAndView index()
    {
 	   ModelAndView mv=new ModelAndView("page");
 	   mv.addObject("title","Home");
+	   mv.addObject("categories",categoryDAO.retrieve());
 	   mv.addObject("userCilckHome",true);
 		return mv;
    }
@@ -88,14 +89,10 @@ public class PageController
 	   mv.addObject("userCilckContactUs",true);
 		return mv;
    }
-	@RequestMapping(value="/register")
-	public ModelAndView Register()
-   {
-	   ModelAndView mv=new ModelAndView("page");
-	   mv.addObject("title","Register");
-	   mv.addObject("userCilckRegister",true);
-		return mv;
-   }
+	@Autowired
+	SigninDAO signinDAO;
+	
+	
 	
 	@RequestMapping(value="/login")
 	public ModelAndView Login()

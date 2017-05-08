@@ -24,28 +24,28 @@
 <div class="about">
   <div class="container">
       <div class="register">
-		  	  <form> 
+		  	  <form action="CustomerAdd" method="get"> 
 				 <div class="register-top-grid">
 					<h3>PERSONAL INFORMATION</h3>
 					 <div>
 						<span>First Name<label>*</label></span>
-						<input type="text"> 
+						<input type="text" name="cufname"> 
 					 </div>
 					 <div>
 						<span>Last Name<label>*</label></span>
-						<input type="text"> 
+						<input type="text" name="culname"> 
 					 </div>
 					 <div>
 						 <span>Email Address<label>*</label></span>
-						 <input type="text"> 
+						 <input type="text" name="cuemail"> 
 					 </div>
 					  <div>
 						 <span>Mobile Number<label>*</label></span>
-						 <input type="text">
+						 <input type="text" name="cumob">
 					 </div>
 					 <div>
 						 <span>Address<label>*</label></span>
-						 <textarea rows="5" cols="30"></textarea>
+						 <textarea rows="5" cols="30" name="cuaddress"></textarea>
 					 </div>
 					 <div class="clearfix"> </div>
 					   <a class="news-letter" href="#">
@@ -56,21 +56,20 @@
 						    <h3>LOGIN INFORMATION</h3>
 							 <div>
 								<span>Password<label>*</label></span>
-								<input type="text">
+								<input type="password" name="cupassword">
 							 </div>
 							 <div>
 								<span>Confirm Password<label>*</label></span>
-								<input type="text">
+								<input type="password"">
 							 </div>
 							 <div class="clearfix"> </div>
 					 </div>
-				</form>
-				<div class="clearfix"> </div>
-				<div class="register-but">
-				   <form>
-					   <input type="submit" value="submit">
+					 <div class="clearfix"> </div>
+					<div class="register-but">
+				     <input type="submit" value="submit">
 					   <div class="clearfix"> </div>
-				   </form>
+					</form>
+				
 				</div>
 		   </div>
 	</div>

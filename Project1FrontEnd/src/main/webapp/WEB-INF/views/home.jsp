@@ -58,69 +58,76 @@
 			<div class="menu_box">
 		    <h3 class="menu_head">Products Menu</h3>
 			  <ul class="menu">
-				<li class="item1"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/> Man</a>
+			  <c:forEach items="${categories}" var="cat">
+				<li class="item1"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>${cat.catname}</a>
 					<ul class="cute">
-						<li class="subitem1"><a href="#">Cute Kittens </a></li>
-						<li class="subitem2"><a href="#">Strange Stuff </a></li>
-						<li class="subitem3"><a href="#">Automatic Fails </a></li>
+						<li class="subitem1"><a href="#">Labrador </a></li>
+						<li class="subitem2"><a href="#">Great Dane </a></li>
+						<li class="subitem3"><a href="#">Bull Dog </a></li>
+						<li class="subitem3"><a href="#">Doberman </a></li>
+						<li class="subitem3"><a href="#">German Sheperd </a></li>
+						<li class="subitem3"><a href="#"> Boxer </a></li>
 					</ul>
 				</li>
-				<li class="item2"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Women</a>
+				</c:forEach>
+				<li class="item2"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Cat</a>
 					<ul class="cute">
-						<li class="subitem1"><a href="#">Cute Kittens </a></li>
-						<li class="subitem2"><a href="#">Strange Stuff </a></li>
-						<li class="subitem3"><a href="#">Automatic Fails </a></li>
+						<li class="subitem1"><a href="#">Persian </a></li>
+						<li class="subitem2"><a href="#">Mumbai Cat </a></li>
+						<li class="subitem3"><a href="#">Himalayan Cat </a></li>
+						<li class="subitem3"><a href="#">Siamese Cat </a></li>
+						<li class="subitem3"><a href="#">spotted Cat </a></li>
 					</ul>
 				</li>
-				<li class="item3"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Fashion 2015</a>
+				<li class="item3"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Birds</a>
 					<ul class="cute">
 						<li class="subitem1"><a href="#">Cute Kittens </a></li>
 						<li class="subitem2"><a href="#">Strange Stuff </a></li>
 						<li class="subitem3"><a href="#">Automatic Fails</a></li>
 					</ul>
 				</li>
-				<li class="item4"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Kids</a>
+				<li class="item4"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Fish</a>
 					<ul class="cute">
 						<li class="subitem1"><a href="#">Cute Kittens </a></li>
 						<li class="subitem2"><a href="#">Strange Stuff </a></li>
 						<li class="subitem3"><a href="#">Automatic Fails </a></li>
 					</ul>
 				</li>
-				<li class="item5"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Jeans</a>
+				<li class="item5"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Tortoise</a>
 					<ul class="cute">
 						<li class="subitem1"><a href="#">Cute Kittens </a></li>
 						<li class="subitem2"><a href="#">Strange Stuff </a></li>
 						<li class="subitem3"><a href="#">Automatic Fails </a></li>
 					</ul>
 				</li>
-				<li class="item6"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Tshirt</a>
+				<li class="item6"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Rabbit</a>
 					<ul class="cute">
 						<li class="subitem1"><a href="#">Cute Kittens </a></li>
 						<li class="subitem2"><a href="#">Strange Stuff </a></li>
 						<li class="subitem3"><a href="#">Automatic Fails </a></li>
 					</ul>
 				</li>
-				<li class="item7"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Top Fashion</a>
-					<ul class="cute">
-						<li class="subitem1"><a href="#">Cute Kittens </a></li>
-						<li class="subitem2"><a href="#">Strange Stuff </a></li>
-						<li class="subitem3"><a href="#">Automatic Fails </a></li>
-					</ul>
-				</li>
-				<li class="item8"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Summer Collection</a>
-					<ul class="cute">
-						<li class="subitem1"><a href="#">Cute Kittens </a></li>
-						<li class="subitem2"><a href="#">Strange Stuff </a></li>
-						<li class="subitem3"><a href="#">Automatic Fails </a></li>
-					</ul>
-				</li>
-				<li class="item9"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Special Offer</a>
-					<ul class="cute">
-						<li class="subitem1"><a href="#">Cute Kittens </a></li>
-						<li class="subitem2"><a href="#">Strange Stuff </a></li>
-						<li class="subitem3"><a href="#">Automatic Fails </a></li>
-					</ul>
-				</li>
+<%-- 				<li class="item7"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Top Fashion</a> --%>
+<!-- 					<ul class="cute"> -->
+<!-- 						<li class="subitem1"><a href="#">Cute Kittens </a></li> -->
+<!-- 						<li class="subitem2"><a href="#">Strange Stuff </a></li> -->
+<!-- 						<li class="subitem3"><a href="#">Automatic Fails </a></li> -->
+<!-- 					</ul> -->
+<!-- 				</li> -->
+<%-- 				<li class="item8"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Summer Collection</a> --%>
+<!-- 					<ul class="cute"> -->
+<!-- 						<li class="subitem1"><a href="#">Cute Kittens </a></li> -->
+<!-- 						<li class="subitem2"><a href="#">Strange Stuff </a></li> -->
+<!-- 						<li class="subitem3"><a href="#">Automatic Fails </a></li> -->
+<!-- 					</ul> -->
+<!-- 				</li> -->
+<%-- 				<li class="item9"><a href="#"><img class="arrow-img" src="${images}/f_menu.png" alt=""/>Special Offer</a> --%>
+<!-- 					<ul class="cute"> -->
+<!-- 						<li class="subitem1"><a href="#">Cute Kittens </a></li> -->
+<!-- 						<li class="subitem2"><a href="#">Strange Stuff </a></li> -->
+<!-- 						<li class="subitem3"><a href="#">Automatic Fails </a></li> -->
+<!-- 					</ul> -->
+<!-- 				</li> -->
 			</ul>
 		</div>
 				<!--initiate accordion-->
@@ -184,7 +191,7 @@
 	     		<div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p1.jpg" class="img-responsive" alt=""/></div>
 	     	   <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p></p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>

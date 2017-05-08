@@ -13,10 +13,10 @@
 	<div class="header_top">
 		<div class="container">
 			<div class="logo">
-				<a href="index.html"> <h1><span style="color:red;">P</span><span style="color:green;">ETSHO</span><span style="color:red">P</span></h1></a>
+				<a href="${contextRoot}/home"> <h1><span style="color:red;">P</span><span style="color:green;">ETSHO</span><span style="color:red">P</span></h1></a>
 			</div>
 			<ul class="shopping_grid">
-			      <a href="${contextRoot}/register"><li>Create Account</li></a>
+			      <a href="${contextRoot}/manage/register"><li>Create Account</li></a>
 			      <a href="${contextRoot}/login"><li>Sign In</li></a>
 			      <a href="#"><li><span class="m_1">Shopping Bag</span>&nbsp;&nbsp;(0) &nbsp;<img src="${images}/bag.png" alt=""/></li></a>
 			      <div class="clearfix"> </div>

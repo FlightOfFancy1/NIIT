@@ -1,0 +1,29 @@
+.container
+ {
+ 
+/*      margin: auto;*/
+    width: 50%;
+     
+/*
+     border: 3px solid green;
+    
+*/
+ }
+
+
+#abc
+{
+    padding-top: 4%;
+}
+.panel
+{
+/*    padding-top: 10%;*/
+    margin: 10%;
+    border: 2px solid darkseagreen;
+}
+.panel-heading
+{
+    color: white;
+      
+    background-color: darkseagreen;
+}
