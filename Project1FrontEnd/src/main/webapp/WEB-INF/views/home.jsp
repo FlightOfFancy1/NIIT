@@ -156,30 +156,30 @@
 				<h3>Delivering</h3>
 				<h4>World Wide</h4>
 			</div>
-			<div class="twitter">
-			   <h3>Latest From Twitter</h3>
-			   <ul class="twt1">
-			   	  <i class="twt"> </i>
-			   	  <li class="twt1_desc"><span class="m_1">@Contrary</span> to popular belief, Lorem Ipsum is<span class="m_1"> not simply</span></li>
-			   	  <div class="clearfix"> </div>
-			   </ul>
-			   <ul class="twt1">
-			   	  <i class="twt"> </i>
-			   	  <li class="twt1_desc"><span class="m_1">There are many</span> variations of passages of Lorem Ipsum available, but the majority <span class="m_1">have suffered</span></li>
-			   	  <div class="clearfix"> </div>
-			   </ul>
-			   <ul class="twt1">
-			   	  <i class="twt"> </i>
-			   	  <li class="twt1_desc"><span class="m_1">Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <span class="m_1">been the industry's standard dummy text ever</span></li>
-			   	  <div class="clearfix"> </div>
-			   </ul>
-			</div>
+<!-- 			<div class="twitter"> -->
+<!-- 			   <h3>Latest From Twitter</h3> -->
+<!-- 			   <ul class="twt1"> -->
+<!-- 			   	  <i class="twt"> </i> -->
+<!-- 			   	  <li class="twt1_desc"><span class="m_1">@Contrary</span> to popular belief, Lorem Ipsum is<span class="m_1"> not simply</span></li> -->
+<!-- 			   	  <div class="clearfix"> </div> -->
+<!-- 			   </ul> -->
+<!-- 			   <ul class="twt1"> -->
+<!-- 			   	  <i class="twt"> </i> -->
+<!-- 			   	  <li class="twt1_desc"><span class="m_1">There are many</span> variations of passages of Lorem Ipsum available, but the majority <span class="m_1">have suffered</span></li> -->
+<!-- 			   	  <div class="clearfix"> </div> -->
+<!-- 			   </ul> -->
+<!-- 			   <ul class="twt1"> -->
+<!-- 			   	  <i class="twt"> </i> -->
+<!-- 			   	  <li class="twt1_desc"><span class="m_1">Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <span class="m_1">been the industry's standard dummy text ever</span></li> -->
+<!-- 			   	  <div class="clearfix"> </div> -->
+<!-- 			   </ul> -->
+<!-- 			</div> -->
 			<div class="clients">
 				<h3>Our Happy Clients</h3>
-				<h4>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</h4>
+				<h4>This is the best place to take your favourite pet to your home</h4>
 			   <ul class="user">
 			   	<i class="user_icon"></i>
-			   	<li class="user_desc"><a href="#"><p>John Doe, Company Info</p></a></li>
+			  <!--  	<li class="user_desc"><a href="#"><p>John Doe, Company Info</p></a></li> -->
 			   	<div class="clearfix"> </div>
 			   </ul>
 			</div>
@@ -191,7 +191,7 @@
 	     		<div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p1.jpg" class="img-responsive" alt=""/></div>
 	     	   <div class="grid_2">
-	     	  	<p></p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -205,7 +205,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p2.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -222,7 +222,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p3.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -236,7 +236,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p4.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -250,7 +250,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p5.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -267,7 +267,7 @@
 	     	 <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p6.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -281,7 +281,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p7.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -295,7 +295,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p8.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -313,7 +313,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p9.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -327,7 +327,7 @@
 	     	 <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p10.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -341,7 +341,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p11.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -358,7 +358,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p12.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -372,7 +372,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p13.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>
@@ -386,7 +386,7 @@
 	     	  <div class="b-link-stroke b-animate-go  thickbox">
 		        <img src="${images}/p14.jpg" class="img-responsive" alt=""/> </div>
 	     	  <div class="grid_2">
-	     	  	<p>There are many variations of passages</p>
+	     	  	<p>There are many variations in a pet breed</p>
 	     	  	<ul class="grid_2-bottom">
 	     	  		<li class="grid_2-left"><p>$99<small>.33</small></p></li>
 	     	  		<li class="grid_2-right"><div class="btn btn-primary btn-normal btn-inline " target="_self" title="Get It">Get It</div></li>

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.vishalshirke.Project1BackEnd.dao.CategoryDAO;
-import com.vishalshirke.Project1BackEnd.dao.SigninDAO;
+import com.vishalshirke.Project1BackEnd.dao.CustomerDAO;
 
 
 @Controller
@@ -89,10 +89,7 @@ public class PageController
 	   mv.addObject("userCilckContactUs",true);
 		return mv;
    }
-	@Autowired
-	SigninDAO signinDAO;
-	
-	
+
 	
 	@RequestMapping(value="/login")
 	public ModelAndView Login()

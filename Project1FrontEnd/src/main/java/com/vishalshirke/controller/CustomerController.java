@@ -1,5 +1,7 @@
 package com.vishalshirke.controller;
 
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,16 +9,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.vishalshirke.Project1BackEnd.dao.SigninDAO;
-import com.vishalshirke.Project1BackEnd.model.Signin;
+import com.vishalshirke.Project1BackEnd.dao.CustomerDAO;
+import com.vishalshirke.Project1BackEnd.model.Customer;
 
 @Controller
-
 @RequestMapping("/manage")
-public class SigninController {
+public class CustomerController {
 
 	@Autowired
-	SigninDAO signinDAO;
+	CustomerDAO customerDAO;
 	
 	@RequestMapping(value="/register")
 	public ModelAndView Register()
@@ -30,15 +31,16 @@ public class SigninController {
 	@RequestMapping(value="CustomerAdd",method=RequestMethod.GET)
 	public String addCustomer(@RequestParam ("cufname") String cufname,@RequestParam ("culname") String culname,@RequestParam ("cuemail") String cuemail,@RequestParam ("cumob")  int cumob,@RequestParam ("cuaddress") String cuaddress,@RequestParam ("cupassword") String cupassword)
 	{
-		Signin signin=new Signin();
+		Customer customer=new Customer();
 		
-		signin.setCufname(cufname);
-		signin.setCulname(culname);
-		signin.setCuemail(cuemail);
-		signin.setCuaddress(cuaddress);
-		signin.setCumob(cumob);
-		signin.setCupassword(cupassword);
-		signinDAO.InertCustomer(signin);
+		customer.setCufname(cufname);
+		customer.setCulname(culname);
+		customer.setCuemail(cuemail);
+		customer.setCuaddress(cuaddress);
+		customer.setCumob(cumob);
+		customer.setCupassword(cupassword);
+		customer.setJoinedDate(new Date());
+		customerDAO.InertCustomer(customer);
 		return "redirect:/manage/register";	
 	}
 	

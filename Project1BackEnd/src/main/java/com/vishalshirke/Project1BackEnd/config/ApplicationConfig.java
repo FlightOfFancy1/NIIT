@@ -16,9 +16,9 @@ import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.vishalshirke.Project1BackEnd.dao.SigninDAO;
+import com.vishalshirke.Project1BackEnd.dao.CustomerDAO;
 import com.vishalshirke.Project1BackEnd.model.Category;
-import com.vishalshirke.Project1BackEnd.model.Signin;
+import com.vishalshirke.Project1BackEnd.model.Customer;
 
 
 
@@ -57,7 +57,7 @@ public class ApplicationConfig {
 		LocalSessionFactoryBuilder sessionBuilder = new LocalSessionFactoryBuilder(getH2DataSource());
 		sessionBuilder.addProperties(getHibernateProperties());
 		sessionBuilder.addAnnotatedClass(Category.class);
-		sessionBuilder.addAnnotatedClass(Signin.class);
+		sessionBuilder.addAnnotatedClass(Customer.class);
 		SessionFactory sessionfactory=sessionBuilder.buildSessionFactory();
 		System.out.println("SessionFactory Object Created");
 		return sessionfactory;
@@ -86,10 +86,10 @@ public class ApplicationConfig {
 		return transactionManager;
 	}
 	
-	@Bean(name="signinDAO")
-	public SigninDAO getSigninDAO(SessionFactory sessionFactory)
+	@Bean(name="customerDAO")
+	public CustomerDAO getSigninDAO(SessionFactory sessionFactory)
 	{
-		return new SigninDAO(sessionFactory);
+		return new CustomerDAO(sessionFactory);
 	}
 	
 	

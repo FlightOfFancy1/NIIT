@@ -13,8 +13,8 @@
 	<div class="container">
 		<div class="col-md-3 f_grid1">
 			<h3>About</h3>
-			<a href="#"><img src="${images}/logo.png" alt=""/></a>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+			<a href="${contextRoot}/home"> <h1><span style="color:red;">P</span><span style="color:green;">ETSHO</span><span style="color:red">P</span></h1></a>
+			<p>Petshop is a online shop for pets.It is a best place to find your favorite pet and take it to home.</p>
 		</div>
 		<div class="col-md-3 f_grid1 f_grid2">
 			<h3>Follow Us</h3>
@@ -28,12 +28,12 @@
 		<div class="col-md-6 f_grid3">
 			<h3>Contact Info</h3>
 			<ul class="list">
-				<li><p>Phone : 1.800.254.5487</p></li>
+				<li><p>Phone : 1010101010</p></li>
 				<li><p>Fax : 1.800.254.2548</p></li>
-				<li><p>Email : <a href="mailto:info(at)fashionpress.com"> info(at)fashionpress.com</a></p></li>
+				<li><p>Email : <a href="https://github.com/FlightOfFancy1/NIIT"> vishalshirke17@gmail.com</a></p></li>
 			</ul>
 			<ul class="list1">
-				<li><p>Aliquam augue a bibendum ipsum diam, semper porttitor libero elit egestas gravida, ut quam, nunc taciti</p></li>
+				<li><p>Vishal Shirke</p></li>
 			</ul>
 			<div class="clearfix"> </div>
 		</div>
@@ -50,9 +50,9 @@
 					<li><a href="register.html">Support & FAQ</a></li>
 				</ul>
 			</div>
-			<div class="copy">
-			    <p>&copy;  2015 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
-		    </div>
+<!-- 			<div class="copy"> -->
+<!-- 			    <p>&copy;  2015 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p> -->
+<!-- 		    </div> -->
 		    <div class="clearfix"> </div>
        	</div>
 </div>
